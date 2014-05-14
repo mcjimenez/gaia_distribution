@@ -13,6 +13,9 @@ DST_OUTPUT="/home/cjc/tmp/test_stageV13"
 # Zip file name
 OUT_FILE_NAME="gaiaZTE_SPAIN_buildV13.zip"
 
+# Gaia distribution dir. Absolute path
+DISTRIBUTION_DIR="/home/cjc/dev/distrib/firefoxos-gaia-zte"
+
 # List of files (white space separator) that will be included on the zip file
 # at the same directory level than the distribution directory
 FIRST_LEVEL="README.txt"
@@ -32,4 +35,4 @@ REMOTE_DIST_ORIGIN="v1.3"
 USER_TYPE=1
 export MOZ_GAIA_DIR DST_OUTPUT USER_TYPE FIRST_LEVEL EXCL_LST DISTRIB_DIR_OUT
 export OUT_FILE_NAME REMOTE_ORIGIN REMOTE_DIST_ORIGIN DIST_BRANCH
-export LOCAL_BRANCH REMOTE_BRANCH
+export LOCAL_BRANCH REMOTE_BRANCH DISTRIBUTION_DIR
